@@ -60,6 +60,18 @@ const router = useRouter();
         errorMessage={errors.email?.message}
         classNames={inputStyle}
       />
+      <Input
+        label="Department Name"
+        variant="bordered"
+        labelPlacement="outside"
+        placeholder="Department Name"
+        type="text"
+        {...register("departmentName", {
+          required: "Department Name is required",
+        })}
+        errorMessage={errors.departmentName?.message}
+        classNames={inputStyle}
+      />
 
       <Input
         label="Contact Number"
