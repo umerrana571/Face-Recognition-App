@@ -11,6 +11,7 @@ const HomeHero = () => {
         <h1 className='text-3xl/snug text-balance font-bold sm:text-4xl/snug md:text-5xl/[1.3] lg:text-6xl/[1.3]'>Image Recognition System For School</h1>
         <p className='text-balance'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ea cumque iusto, tempore quas provident.</p>
         <Button as={NextLink} href="create-user" color='warning' variant='shadow' endContent={<FaArrowRight/>} >Create User</Button>
+        <p className='text-balance font-bold text-center text-white flex'>Umar Uz Zaman</p>
         <span className="text-balance font-bold text-center text-white   flex  ">Umar Uz Zaman</span>
         </div>
        </Wrapper>
